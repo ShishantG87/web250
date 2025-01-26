@@ -39,7 +39,7 @@ html, body {
 
   hr {
     border: 1px solid #ffffff;
-    width: 80%;
+    max-width: 80%;
     margin: 20px auto;
   }
   
