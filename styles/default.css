@@ -4,7 +4,8 @@ body {
   height: 100%;
   margin: 0 auto;
   max-width: 1000px;
-  width: 100%;
+  width: 90%;
+  
 }
 body {
   text-align: center;
@@ -34,7 +35,8 @@ footer {
   color: white;
   text-align: center;
   position: relative;
-  bottom: 30px;
+  margin-top: auto;
+  padding-top: 20px;
 }
 
 hr {
@@ -57,4 +59,19 @@ li {
 img {
   margin-left: auto;
   margin-right: auto;
+}
+
+
+#footer-links {
+  display:flex;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+
+}
+
+#page-links {
+  display:flex;
+  justify-content: space-evenly;
+  
+
 }

@@ -4,7 +4,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Shishant Bohora's - WEB250 - Contract </title>
-    <link rel="stylesheet" href="styles/main.css">
+    <link href="styles/fonts.css" rel="stylesheet" >
+    <link href="styles/default.css" rel="stylesheet">
     <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
   </head>
 

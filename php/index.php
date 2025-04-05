@@ -5,7 +5,8 @@
     <meta charset="UTF-8" >
 
     <title>Shishant Bohora - Sneaky Bear - WEB250 - </title>
-    <link href="styles/main.css" rel="stylesheet" >
+    <link href="styles/fonts.css" rel="stylesheet" >
+    <link href="styles/default.css" rel="stylesheet">
     <script
       src="https://lint.page/kit/67ff88.js"
       crossorigin="anonymous"

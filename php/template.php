@@ -4,7 +4,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Shishant Bohora's Sneaky Bear - WEB250 - Template </title>
-    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/fonts.css" rel="stylesheet" >
+    <link href="styles/default.css" rel="stylesheet">
     <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
   </head>
 
