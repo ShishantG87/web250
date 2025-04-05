@@ -1,19 +1,16 @@
 @font-face {
     font-family: 'header-font';
-    src: 
-         url('https://github.com/ShishantG87/web250/blob/main/fonts/hamston.ttf') ;
+    src: url('../fonts/hamston.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'p-font';
-    src: 
-         url('https://github.com/ShishantG87/web250/blob/main/fonts/lemon-milk.otf') ;
-}
+    src: url('../fonts/lemon-milk.otf') format('opentype'); }
 
 h1 {
     font-family: 'header-font';
 }
 
-p {
+a, p, li, figcaption {
     font-family:'p-font';
 }
