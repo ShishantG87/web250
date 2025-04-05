@@ -9,6 +9,6 @@
       <a href="">JSFiddle</a>
       <a href="https://www.linkedin.com/in/shishant-bohora-708760294/"> LinkedIn</a>
     </nav>
-    <p>Website designed by Shishant Bohora &copy;</p>
+    <p>Website designed by Shishant Bohora &copy;2025</p>
 
   </footer>
