@@ -10,14 +10,15 @@ html, body {
     display: flex;
     
     flex-direction: column;
-    background-color: #333;
-    color: whitesmoke;
+    background-color: #5b5f92;
+    color: rgb(0, 0, 0);
   }
 
 
 
   a {
     color:  rgb(255, 255, 255);
+    text-decoration: none;
   }
 
   a:visited{
@@ -33,7 +34,7 @@ html, body {
 
   footer {
     margin-top: auto;
-    background-color: rgb(8, 8, 8);
+    
     color: white;
     text-align: center;
     padding: 10px;
@@ -41,7 +42,7 @@ html, body {
   }
 
   hr {
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     max-width: 80%;
     margin: 20px auto;
   }

@@ -16,13 +16,11 @@ html, body {
 
   a {
     color:  rgb(255, 255, 255);
+    text-decoration: none;
   }
 
   a:visited{
-
     color: rgba(26, 187, 236, 0.884);
-
-
   }
 
   a:hover, a:active {

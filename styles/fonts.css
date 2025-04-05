@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'header-font';
+    src: url('fonts/hamston.ttf') format('truetype'),
+         url('https://shishantg87.github.io/web250/fonts/hamston.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'p-font';
+    src: url('fonts/lemon-milk.otf') format('opentype'),
+         url('https://shishantg87.github.io/web250/fonts/lemon-milk.otf') format('opentype');
+}
+
+h1 {
+    font-family: 'header-font';
+}
