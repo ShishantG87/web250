@@ -53,8 +53,9 @@
     </ul>
 
     
-    <?php require_once('components/footer.php') ?>
+   
     
     
   </body>
+  <?php require_once('components/footer.php') ?>
 </html>

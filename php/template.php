@@ -10,8 +10,9 @@
   </head>
 
   <body>
-  <?php require_once('components/header.php')?>
-
+  <?php require_once "components/header.php"; ?>
+  <main>
+    <h2>Template</h2>
     <p>
       This is a Template page. I've built so that I can easily copy it and then
       just change the contents to match the page I'm working on
@@ -21,7 +22,9 @@
       delete it depending on the assignment I create from it.
     </p>
 
-    <?php require_once('components/footer.php')?>
+    <?php require_once "components/footer.php"; ?>
+    </main>
   </body>
+ 
 
 </html>
