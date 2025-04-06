@@ -7,11 +7,11 @@
     font-family: 'p-font';
     src: url('../fonts/lemon-milk.otf') format('opentype'); }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'header-font';
 }
 
-a, p, li, figcaption {
+a, p, li, figcaption, button {
     font-family:'p-font';
 }
 
