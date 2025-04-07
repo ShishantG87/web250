@@ -6,7 +6,7 @@
     <a href="index.php" >Home</a> 
     <a href="intro.php" >Introduction</a> 
     <a href="contract.php" >Contract </a> 
-      <a href = "http://shishant.free.nf/index.php">PHP</a>
+      <a href = "http://shishantg87.github.io/web250">HTML</a>
   </p>
 </nav>
 <hr >
