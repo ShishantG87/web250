@@ -22,8 +22,9 @@
       delete it depending on the assignment I create from it.
     </p>
 
-    <?php require_once "components/footer.php"; ?>
+    
     </main>
+    <?php require_once "components/footer.php"; ?>
   </body>
  
 
