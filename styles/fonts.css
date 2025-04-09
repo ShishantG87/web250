@@ -15,10 +15,14 @@ a, p, li, figcaption, button {
     font-family:'p-font';
 }
 
-a {
+a:not(#contract-link) {
     display: inline-block;
     transition: all 150ms ease-in, 150ms ease-out;
 }
 a:hover {
     transform: scale(1.2);
+}
+
+#contract-link {
+    color:#F9D2D2;
 }

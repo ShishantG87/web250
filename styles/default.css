@@ -144,7 +144,12 @@ img {
   transition: transform 0.1s ease;
 
 }
-
+#contract-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 button:hover .b-top {
   transform: translateY(-0.33em);
 }
