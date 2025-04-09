@@ -41,7 +41,7 @@ footer {
 
 hr {
   border: 1px solid #ffffff;
-  max-width: 80%;
+  max-width: 90%;
   margin: 20px auto;
 }
 
@@ -151,4 +151,45 @@ button:hover .b-top {
 
 button:active .b-top {
   transform: translateY(0);
+}
+
+.external-links {
+ display: inline-block;
+}
+
+.drop-down-button {
+  background-color: #A2ECDB ;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 17px
+}
+
+.external-links a {
+  display: block;
+  padding: 5px 1px;
+  color: white;
+  text-decoration: none;
+  border-radius: 0;
+}
+
+.external-links .drop-down-options {
+  display: none;
+  position: absolute;
+  background-color: #A2ECDB ;
+  max-width: 173px;
+  box-shadow: 2px;
+  margin-top: 1.25px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.external-links:hover .drop-down-options{
+  display:block;
+}
+
+.external-links:hover button{
+  background-color: #a2ecdba9 ;
+}
+
+.external-links a:hover{
+  background-color: #2290aca9 ;
 }

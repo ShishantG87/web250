@@ -25,11 +25,14 @@
 <!-- dynamic content goes here -->
 
 <?php
-	$sPage = $_GET["p"];
-	//echo ("You picked the page: " . $sPage); 
 	
-	if($_GET["p"]) {$sPage .= ".php";}
-	else {$sPage = "home.php"; } 
+	
+	if(isset($_GET["p"])) {
+		$sPage = $_GET["p"].".php";
+	}
+	else {
+		$sPage = "home.php"; 
+	} 
 	include($sPage);
 ?>
 

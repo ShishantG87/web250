@@ -20,6 +20,9 @@ header
 
 
 
+.one {
+	max-width: 200px;
+}
 a
 {
 	text-decoration: none;
