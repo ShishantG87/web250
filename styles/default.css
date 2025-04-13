@@ -41,6 +41,7 @@ footer {
   
 }
 
+
 hr {
   border: 1px solid #ffffff;
   max-width: 80%;
@@ -151,6 +152,11 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+#contract-info p {
+  text-align: left;
+  max-width: 90%;
 }
 button:hover .b-top {
   transform: translateY(-0.33em);
