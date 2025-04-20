@@ -182,8 +182,10 @@ button:active .b-top {
   margin-top: 1.25px;
   box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
 }
+
 .external-links:hover .drop-down-options{
   display:block;
+  
 }
 #contract-info {
   position: relative;

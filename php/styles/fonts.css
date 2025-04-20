@@ -27,3 +27,7 @@ a:hover {
     color:#F9D2D2;
     text-decoration: underline;
 }
+
+.random-bs:hover {
+    transform: none;
+}
