@@ -1,4 +1,6 @@
 
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,21 +19,17 @@
     <?php require_once('components/header.php') ?>
    
     <main>
-      <h2>Home</h2>
-      <section id="game">
-        <h3>Play with Bob!</h3>
-        <div id="img-cont">
-          <img id="robot-img" src="images/robot.png" alt="robot"/>
-          <p id="hover-text">Pick rock, paper, or scissors!</p>
-        </div>
 
-        <div id ='rps-cont'>
-        <button class="rps-options" id="rock"><span class="b-top">Rock</span></button>
-        <button class="rps-options" id="paper"> <span class="b-top">Paper</span></button>
-        <button class="rps-options" id="scissors"><span class="b-top">Scissors</span></button>
-      </div>
-        
-    </section>
+    <?php 
+      if(isset($_GET['p'])) {
+          $page = $_GET['p']. ".php";
+      } 
+      else {
+          $page = 'home.php';
+      } 
+      include_once($page); 
+      ?>
+          
     </main>
 
     <?php require_once('components/footer.php') ?>

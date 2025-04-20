@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" >
-
-    <title>Shishant Bohora's Sneaky Bear - Introduction</title>
-    <link href="styles/fonts.css" rel="stylesheet" >
-    <link href="styles/default.css" rel="stylesheet">
-    <script
-      src="https://lint.page/kit/67ff88.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-  <?php require_once('components/header.php') ?>
-    <img src="images/selfie.JPG" alt="Image" width="350" height="400"  >
+<h2>Introduction</h2>
+    <h3>Shishant - Sneaky Bear</h3>
+    <figure>
+      <img src="images/selfie.jpg" alt="Image" width="300" height="350" />
+      <figcaption>
+        <em>Next to Artwork</em>
+      </figcaption>
+    </figure>
     <ul>
       <li>
         <strong>Personal background</strong>: I was born in Nepal and moved to
@@ -36,12 +28,12 @@
       <li>
         <strong>Courses I'm Taking and Why:</strong>
         <ul>
-          <li>WEB250 Database Driven Websites - Required</li>
+          <li><a href='contract.html' id="contract-link-1">WEB250 Database Driven Websites</a> - Required</li>
           <li>WEB140 Web Development Tools - Required</li>
           <li>
             WEB115 Web Markup and Scripting - Required, also for all these web
-            development classes it's all the same reason, which is to increase my
-            knowledge relating to creating and configuring websites.
+            development classes it's all the same reason, which is to increase
+            my knowledge relating to creating and configuring websites.
           </li>
           <li>
             ANT210 General Anthropology - I'm very interested in human biology
@@ -51,11 +43,3 @@
         </ul>
       </li>
     </ul>
-
-    
-   
-    <?php require_once('components/footer.php') ?>
-    
-  </body>
- 
-</html>

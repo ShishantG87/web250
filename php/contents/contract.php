@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <title>Shishant Bohora's - WEB250 - Contract </title>
-    <link href="styles/fonts.css" rel="stylesheet" >
-    <link href="styles/default.css" rel="stylesheet">
-    <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
-  </head>
-
-  <body>
-    <?php require_once('components/header.php') ?>
-    <main>
-    <div id="contract-info">
+<div id="contract-info">
         <h2 class="c-head">Contract</h2>
         <p>
           I,
@@ -30,9 +16,3 @@
         </p>
         <p>Signed: <em>Shishant Bohora, 19 January 2025</em></p>
       </div>
-    </main>
-    <?php require_once('components/footer.php') ?>
-    
-  </body>
-
-</html>
