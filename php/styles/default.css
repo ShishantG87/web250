@@ -186,6 +186,8 @@ button:active .b-top {
   display:block;
 }
 #contract-info {
+  position: relative;
+  left: 50px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

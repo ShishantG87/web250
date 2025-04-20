@@ -148,6 +148,8 @@ img {
 
 }
 #contract-info {
+  position: relative;
+  left: 90px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
