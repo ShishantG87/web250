@@ -25,7 +25,7 @@
           $page = $_GET['p']. ".php";
       } 
       else {
-          $page = 'home.php';
+          $page = 'contents/home.php';
       } 
       include_once($page); 
       ?>

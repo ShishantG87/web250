@@ -28,7 +28,7 @@
       <li>
         <strong>Courses I'm Taking and Why:</strong>
         <ul>
-          <li><a href='contract.html' id="contract-link-1">WEB250 Database Driven Websites</a> - Required</li>
+          <li><a href='index.php' id="contract-link-1">WEB250 Database Driven Websites</a> - Required</li>
           <li>WEB140 Web Development Tools - Required</li>
           <li>
             WEB115 Web Markup and Scripting - Required, also for all these web
