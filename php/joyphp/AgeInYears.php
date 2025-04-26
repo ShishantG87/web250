@@ -15,6 +15,8 @@
     return $year_diff;
   }
 
+  echo 's';
+
 ?>
 </body>
 </html>
