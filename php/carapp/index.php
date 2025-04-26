@@ -18,6 +18,7 @@
      require_once('../components/header.php');
      require_once('config_db.php');
      require_once('contents/show_inventory.php');
+     
     
     
      $mysqli->close();

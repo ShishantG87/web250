@@ -27,7 +27,7 @@ if ($result) {
             echo "<td>" . $record['Make'] . "</td>";
             echo "<td>" . $record['Model'] . "</td>";
             echo "<td>" . $record['ASKING_PRICE'] . "</td>";
-            echo "<td>" . "Edit&nbsp;&nbsp;" . "&nbsp;Delete" . "</td>" ;
+            echo "<td>" . "Edit&nbsp;&nbsp;" . "<a href=''>&nbsp;Delete" . "</td>" ;
             echo "</tr>";
         }
 
@@ -68,7 +68,10 @@ if ($result) {
         background-color: #A2ECDB;  
         color: black;
     }
-
+    tr:nth-child(odd) {
+        background-color:rgb(51, 223, 45);  
+        color: black;
+    }
     tr:hover {
         background-color: red;    
         cursor: pointer;
