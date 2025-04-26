@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'header-font';
+    src: url('../fonts/hamston.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'p-font';
+    src: url('../fonts/lemon-milk.otf') format('opentype'); }
+
+h1, h2, h3 {
+    font-family: 'header-font';
+}
+
+a, p, li, figcaption, button {
+    font-family:'p-font';
+}
+
+a:not(#contract-link):not(#contract-link-1) {
+    display: inline-block;
+    transition: all 150ms ease-in, 150ms ease-out;
+}
+a:hover {
+    transform: scale(1.2);
+}
+
+#contract-link, #contract-link-1 {
+    color:#F9D2D2;
+    text-decoration: underline;
+}

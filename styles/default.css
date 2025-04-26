@@ -1,0 +1,183 @@
+html,
+body {
+  font-size: 17px;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 90%;
+ 
+  
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+.end-tag {
+  text-align: center;
+}
+.selfie {
+  text-align: center;
+}
+
+.robot {
+ display: block;
+ margin: 0 auto;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #535388;
+  color: #ffffff;
+  
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+a:hover,
+a:active {
+  color: #ffffff;
+}
+
+footer {
+  border-radius: 12px;
+  border: 5px solid white;
+  color: white;
+  margin-top: auto;
+  padding-top: 20px;
+  margin-bottom: 25px;
+  
+}
+
+
+hr {
+  border: 1px solid #ffffff;
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  text-align: left;
+  padding: 20px;
+  flex-direction: column;
+}
+li {
+  margin-bottom: 10px;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#footer-links {
+  display:flex;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+
+}
+
+#page-links {
+  display:flex;
+  justify-content: space-evenly;
+  
+
+}
+
+#game {
+  border: 2px solid white;
+  border-radius: 5px;
+  min-height: 400px;
+}
+
+#robot-img {
+  position: relative;
+  top: 10px;
+ 
+}
+
+#hover-text {
+  position: absolute;
+  right: 750px;
+  top: 270px;
+  opacity: 0;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 10px;
+  max-width: 124px;
+  font-size: 13px;
+  transition: opacity 400ms ease-out;
+}
+#img-cont {
+  display: inline;
+  max-width: 100px;
+  max-height: 100px;
+}
+#img-cont:hover #hover-text{
+  opacity: 1;
+}
+
+#rps-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  margin-top: 60px;
+  padding: 5px;
+  position: relative;
+  left: 10px;
+}
+
+.rps-options {
+  --button_radius: 0.75em;
+  --button_color: #535388;
+  --button_outline_color: #ffffff;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+  padding: 0;
+}
+
+.b-top {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+
+}
+#contract-info {
+  position: relative;
+  left: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#contract-info p {
+  text-align: left;
+  max-width: 90%;
+}
+button:hover .b-top {
+  transform: translateY(-0.33em);
+}
+
+button:active .b-top {
+  transform: translateY(0);
+}
