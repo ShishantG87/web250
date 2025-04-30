@@ -22,7 +22,7 @@ if ($mysqli->connect_error) {
     die("Connection failed: " . $mysqli->connect_error); 
 } 
 
-// Optionally, check if the database exists (though already specified above)
+
 if (!$mysqli->select_db($databaseName)) { 
     die("Failed to select the database: " . $mysqli->error); 
 }
