@@ -14,8 +14,10 @@
   </head>
   <body>
   <main>
+    
     <?php
      require_once('../components/header.php');
+     echo'<h1>Sneaky Bears Used Cars</h1>';
      require_once('config_db.php');
      require_once('contents/show_inventory.php');
      
@@ -25,7 +27,7 @@
      //require_once('contents/footer.php');
     ?>
     
-      <!-- Main content goes here -->
+ 
     </main>
   </body>
 </html>
