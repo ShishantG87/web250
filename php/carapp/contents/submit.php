@@ -9,19 +9,20 @@ if (isset($_POST['VIN']) && !empty($_POST['VIN'])) {
     $Price = isset($_POST['Price']) && $_POST['Price'] !== '' ? $_POST['Price'] : null;
 
  
-    $query = "INSERT IGNORE INTO INVENTORY (VIN, Make, Model, Price) 
+    $query = "INSERT IGNORE INTO INVENTORY (VIN, Make, Model, ASKING_PRICE) 
               VALUES ('$VIN', '$Make', '$Model', $Price)";
 
  
     if ($mysqli->query($query)) {
        
         if ($mysqli->affected_rows > 0) {
-            echo "<p class='message'>Car added successfully!</p>";
+            echo "Car added successfully!, It will only appear when you refresh though!";
         } else {
-            echo "<p class='message'>This VIN already exists.</p>";
+            echo "This VIN already exists";
         }
     } else {
-        echo "<p class='message'>Error: " . $mysqli->error . "</p>";
+        echo "Error: " . $mysqli->error . "";
     }
 } 
+$mysqli->close();
 ?>

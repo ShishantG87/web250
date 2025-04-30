@@ -17,18 +17,21 @@
     
     <?php
      require_once('../components/header.php');
-     echo'<h1>Sneaky Bears Used Cars</h1>';
-     require_once('contents/add-cars.php');
      require_once('config_db.php');
+     echo'<h1 class="car-header">Sneaky Bears Used Cars</h1>';
+     require_once('contents/add-cars.php');
      require_once('contents/show_inventory.php');
-     
-    
-    
      $mysqli->close();
-     //require_once('contents/footer.php');
     ?>
     
- 
     </main>
+    <?php require_once('contents/footer.php'); ?>
   </body>
 </html>
+
+<style>
+  .car-header {
+    position:relative;
+    top: -54px;
+  }
+</style>
