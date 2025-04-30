@@ -20,7 +20,7 @@ if ($result) {
             echo "<td>" . $record['Make'] . "</td>";
             echo "<td>" . $record['Model'] . "</td>";
             echo "<td>" . $record['ASKING_PRICE'] . "</td>";
-            echo "<td>" . "Edit&nbsp;&nbsp;" . "<button class='delete' data-vin='" . $record['VIN'] . "'>&nbsp;Delete</button>" . "</td>";
+            echo "<td>" . "<button class='delete'>Edit&nbsp;&nbsp;</button>" . "<button class='delete' data-vin='" . $record['VIN'] . "'>&nbsp;Delete</button>" . "</td>";
             echo "</tr>";
         }
 
@@ -56,7 +56,7 @@ deleteInfo.forEach((button) => {
 
 <style>
 .delete {
-    background-color: #ff5722; /* Lively orange-red */
+    background-color: #ff5722; 
     color: white;
     padding: 3px 12px;
     font-size: 18px;
@@ -64,10 +64,11 @@ deleteInfo.forEach((button) => {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin: 0 0 0 4px;
 }
 
 .delete:hover {
-    background-color: #e64a19; /* Slightly darker red for hover */
+    background-color: #e64a19; 
 }
 
 .delete:active {
@@ -83,7 +84,7 @@ table {
 }
 
 th {
-    background-color: #2c7dbf; /* Soft blue that contrasts well with #535388 */
+    background-color: #2c7dbf; 
     color: white;
     padding: 12px 15px;
     min-width: 10vw;
@@ -92,17 +93,17 @@ th {
 
 td {
     padding: 8px 15px;
-    border: 1px solid #bbb; /* Softer gray for borders */
+    border: 1px solid #bbb; 
     text-align: left;
 }
 
 tbody {
     display: block;
-    max-height: 300px;
+    max-height: 600px;
     overflow-y: auto;
     overflow-x: hidden;
     width: 100%;
-    border-top: 1px solid #bbb; /* Soft gray for the border */
+    border-top: 1px solid #bbb; 
 }
 
 thead {
@@ -112,23 +113,23 @@ thead {
 }
 
 th, td {
-    border: 1px solid #bbb; /* Matching the border color for consistency */
+    border: 1px solid #bbb; 
 }
 
 tr:nth-child(even) {
-    background-color: #f0f8ff; /* Very light blue for even rows */
-    color: #333; /* Dark text for readability */
+    background-color: #f0f8ff;
+    color: #333; 
 }
 
 tr:nth-child(odd) {
-    background-color: #e0f7fa; /* Light cyan for odd rows */
-    color: #333; /* Dark text for readability */
+    background-color: #e0f7fa; 
+    color: #333; 
 }
 
 tr:hover {
-    background-color: #ffeb3b; /* Soft yellow when hovering */
+    background-color: #ffeb3b; 
     cursor: pointer;
-    color: #333; /* Dark text on hover for readability */
+    color: #333; 
     transition: background-color 0.3s ease-in-out;
 }
 </style>

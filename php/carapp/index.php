@@ -18,6 +18,7 @@
     <?php
      require_once('../components/header.php');
      echo'<h1>Sneaky Bears Used Cars</h1>';
+     require_once('contents/add-cars.php');
      require_once('config_db.php');
      require_once('contents/show_inventory.php');
      
