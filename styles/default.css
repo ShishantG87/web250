@@ -8,8 +8,22 @@ body {
  
   
 }
-body {
+
+h1, h2, h3 {
   text-align: center;
+}
+.end-tag {
+  text-align: center;
+}
+.selfie {
+  text-align: center;
+}
+
+.robot {
+ display: block;
+ margin: 0 auto;
+}
+body {
   display: flex;
   flex-direction: column;
   background-color: #535388;

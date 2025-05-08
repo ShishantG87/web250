@@ -12,6 +12,7 @@
       <div class="drop-down-options">
         <a href="multipage_sites/superduper_static/" class='random-bs'>Super Duper Static</a> 
         <a href="multipage_sites/superduper_php/" class='random-bs'>Super Duper Dynamic</a> 
+        <a href="../joyphp/index.php" class='random-bs'>Joy of Php</a> 
       </div>
     </div>
  

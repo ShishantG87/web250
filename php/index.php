@@ -27,7 +27,7 @@
       else {
           $page = 'contents/home.php';
       } 
-      include_once($page); 
+      require_once($page); 
       ?>
           
     </main>

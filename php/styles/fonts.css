@@ -11,7 +11,7 @@ h1, h2, h3 {
     font-family: 'header-font';
 }
 
-a, p, li, figcaption, button {
+a, p, li, figcaption, button, td, th {
     font-family:'p-font';
 }
 
